@@ -52,10 +52,10 @@ console.log(x);
 
 //Activity 3.
 //you're assigning values, remember that JS reads from top to bottom. [Flow stack]
-let pizza = 5;
-let burger = 10;
-burger = pizza;
-pizza = 10;
+// let pizza = 5;
+// let burger = 10;
+// burger = pizza;
+// pizza = 10;
 
 //Activity 4.
 let pizza = 5;  //Assigning pizza to the value of 5
@@ -64,3 +64,12 @@ burger = pizza; //Now you're making both values = to each other
 pizza++;  // This operator essentially means to add 1 to it.
 burger--; // This operator means to subtract 1 from it.
 pizza /= 2; // Operator means to divide two from it
+
+//Activity 5.
+let age = 17;
+// I just had my birthday!
+age++;
+
+console.log(age);
+
+//The difference between let and const is that once you bind a value/object to a variable using const, you can't reassign to that variable.
